@@ -1,0 +1,107 @@
+/* Font Awesome CSS */
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
+body{
+    font-family:'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    height:auto;
+
+}
+.container{
+    width: 100vmax;
+    height: 100vmin;
+}
+.box-1{
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin: 1em;
+}
+.img-1{
+    
+    border-top-left-radius:0.3em;
+    border-bottom-left-radius:0.3em;
+    width: 100%;
+    height: 100%;
+}
+h4{
+    line-height: 1.5;
+    font-weight: 700 !important;
+    color: hsl(214, 17%, 51%);
+}
+h5{
+    text-align: justify;
+    font-weight: 700 !important;
+    color: hsl(214, 17%, 51%);
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500 !important;
+    color:hsl(212, 23%, 69%);
+}
+.img-2{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    width: 60px;
+    height: 60px;
+}
+.img-3{
+    width:20px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
+.btn-bg{
+    background:hsl(210, 46%, 95%);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    padding: 10px 10px;
+}
+.sharingOptions{
+    position: absolute;
+    background:hsl(217, 19%, 35%);
+    width:200px;
+    height: 50px;
+    z-index:1;
+    border-radius: 0.8em;
+    right:-30px;
+    bottom:60px;
+    opacity:0;
+}
+@media screen and (max-width:991px) and (min-width:200px) {
+    .container{
+        width: 100vmax;
+        height: auto;
+    }
+    .box-1{
+        border-radius: 10px;
+        background-color: white;
+        width: 80%;
+        margin: 3em;
+    }
+    .img-1{
+        border-top-left-radius:0.3em;
+        border-top-right-radius:0.3em;
+        border-bottom-left-radius: 0;
+    }
+    .sharingOptions{
+        position: absolute;
+        background:hsl(217, 19%, 35%);
+        width:95%;
+        height: 22%;
+        z-index:1;
+        border-radius: 0 0 0.8em 0.8em;
+        right:14px;
+        bottom:0;
+        opacity:0;
+        overflow: hidden;
+    }
+}@media screen and (max-width:2000px) and (min-width:200px) {
+    
+    h4{
+        line-height: 1.3;
+    }
+}
